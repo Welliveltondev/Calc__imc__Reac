@@ -1,0 +1,15 @@
+form {    
+    max-width: 40%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin: 40px auto;
+    
+}
+
+input, span{
+    text-align: center;
+    padding: 6px;
+    align-items: center;
+    border-radius: 4px;
+}

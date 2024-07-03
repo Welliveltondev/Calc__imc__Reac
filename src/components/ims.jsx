@@ -1,11 +1,11 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import styles from './Imc.module.css';
 
 const Ims = () => {
 
     return (
         <div>
-            <header>
+            <header className={styles.header}>
             <h1>IMS</h1>
             </header>
             <div class="description">

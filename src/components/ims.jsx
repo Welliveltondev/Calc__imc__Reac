@@ -1,12 +1,12 @@
 // import { useState } from 'react';
 import styles from './Imc.module.css';
 
-const Ims = () => {
+const Imc = () => {
 
     return (
         <div>
             <header className={styles.header}>
-            <h1>IMS</h1>
+            <h1>IMC</h1>
             </header>
             <div class="description">
                 <h3>Você sabe o que é?</h3>
@@ -46,4 +46,4 @@ const Ims = () => {
     
 }
 
-export default Ims;
+export default Imc;

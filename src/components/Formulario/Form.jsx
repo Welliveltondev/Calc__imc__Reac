@@ -10,7 +10,7 @@ const Formulario = () => {
         if (peso > 0 && altura > 0) {
             const alturaMetros = altura / 100;
             const imc = peso / (alturaMetros * alturaMetros);
-            const categoria = "";
+            let categoria = "";
 
             if (imc < 16) {
                 categoria = "magreza grave";
@@ -34,7 +34,7 @@ const Formulario = () => {
 
             const imcFormatado = imc.toFixed(2);
 
-            setResultado(`${imcFormatado} - ${categoria}`)
+            setResultado(`IMC:${imcFormatado} - ${categoria}`);
         } else {
             setResultado("Por favor, insira um valor válido para peso e altura");
         }
